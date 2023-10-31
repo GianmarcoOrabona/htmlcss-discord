@@ -1,6 +1,8 @@
 /* Colors */
 :root {
   --bg-header: #255ee9;
+  --bg-section: #f6f6f6;
+  --bg-primary: #7289da;
 }
 
 /* #region Header */
@@ -33,5 +35,38 @@ header {
 
 .jumbotron > .container {
   width: 40%;
+}
+
+/* Section */
+.bg-grey {
+  background-color: var(--bg-section);
+}
+
+section {
+  padding: 5%;
+}
+
+section h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+section p {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+}
+
+.ready-to button {
+  margin-top: 30px;
+}
+
+.btn-discord {
+  background-color: var(--bg-primary);
+  color: #ffffff;
+}
+
+.btn-discord:hover {
+  background-color: var(--bg-primary);
+  color: #ffffff;
 }
 /* #endregion Main */
