@@ -3,7 +3,35 @@
   --bg-header: #255ee9;
 }
 
-/* Header */
+/* #region Header */
 header {
   background-color: var(--bg-header);
 }
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+/* #endregion Header */
+
+/* #region Main */
+
+/* jumbotron */
+.jumbotron {
+  height: 680px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jumbotron p {
+  font-size: 20px;
+}
+
+.jumbotron > .container {
+  width: 40%;
+}
+/* #endregion Main */
